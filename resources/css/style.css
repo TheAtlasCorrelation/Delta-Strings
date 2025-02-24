@@ -181,7 +181,9 @@ header .icon {
   padding: 1.25rem 7.25rem;
 }
 .booking-header {
+  font-size: 10vh;
   margin-left: 35vw;
+  margin-bottom: 5vh;
 }
 
 @media only screen and (max-width: 760px) {
