@@ -183,6 +183,7 @@ header .icon {
 .booking-header {
   font-size: 10vh;
   margin-left: 37vw;
+  color: rgb(131, 72, 43);
 }
 
 @media only screen and (max-width: 760px) {
