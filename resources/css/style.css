@@ -1,5 +1,3 @@
-/* Universal Styles */
-
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -7,7 +5,7 @@ html {
 
 .main-content {
   position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
+  top: 5.3125rem;
 }
 
 .center {
@@ -18,6 +16,9 @@ html {
   border-radius: 4px;
   background-color: #4a4a4a;
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
 }
 
 .image-container {
@@ -34,13 +35,13 @@ html {
   }
 }
 
-/* Header */
-
 header {
   position: fixed;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  height: 5.3125rem;
+  z-index: 100;
 }
 
 header .content {
@@ -51,6 +52,9 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-family: 'Roboto';
+  font-size: 15.5px;
+  letter-spacing: 0.25px;
 }
 
 header nav ul {
@@ -71,15 +75,24 @@ nav a {
 header .icon {
   width: 1rem;
   padding-left: .75rem;
+  vertical-align: middle;
 }
 
-header .mobile {
+.mobile ul li {
   display: none;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 480px) {
   header .desktop {
     display: none;
+  }
+
+  header {
+    height: 3rem;
+  }
+
+  #sign-up-section {
+    height: 20rem;
   }
 
   header .mobile {
@@ -91,7 +104,7 @@ header .mobile {
     padding: .5rem 0;
   }
 
-  header .mobile ul {
+  .mobile ul li {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -110,20 +123,28 @@ header .mobile {
   }
 }
 
-/* Sign Up Section */
-
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
+  background-image: url("/resources/images/Violin.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10.625rem;
+  padding-bottom: 10.625rem;
+  padding-left: 27.5rem;
+  height: 45.5vh;
 }
 
 #sign-up-cta {
   padding: 0 5rem 2.5rem 5rem;
-  border: solid 1px #979797;
   border-radius: 4px;
-  background-color: #9dc20b;
+  background-color: hsl(221, 100%, 50%);
+  height: auto;
+  width: 45vh;
+  margin-top: -10vh;
+  margin-left: -26vw;
 }
 
 #sign-up-cta .content {
@@ -133,6 +154,8 @@ header .mobile {
   font-size: 1.25rem;
   line-height: 1.4;
   color: white;
+  margin-left: -5vh;
+
 }
 
 #sign-up-cta h1 {
@@ -159,6 +182,22 @@ header .mobile {
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+}
+
+.booking-header {
+  font-size: 10vh;
+  margin-left: 37vw;
+  color: rgb(131, 72, 43);
+}
+
+.image {
+  width: 60vh;
+  height: 50vh;
+}
+
+.image-1 {
+  width: 50vh;
+  height: 60vh;
 }
 
 @media only screen and (max-width: 760px) {
@@ -193,9 +232,15 @@ header .mobile {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
   #sign-up-section {
     height: 20rem;
+    background-position: right;
+    padding-right: 6.25rem;
+  }
+
+  #sign-up-cta {
+    padding: 0;
   }
 
   #sign-up-cta h1 {
@@ -205,9 +250,11 @@ header .mobile {
   #sign-up-cta h2 {
     font-size: 2rem;
   }
-}
 
-/* Features Section */
+  #features-section {
+    padding: 1rem 0.5%;
+  }
+}
 
 #features-section {
   display: flex;
@@ -229,6 +276,16 @@ header .mobile {
   margin: 0 auto;
 }
 
+.feature .image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.feature .content {
+  max-width: 90%;
+  margin: 2.5rem auto;
+}
+
 .feature h2 {
   padding-bottom: .5rem;
   font-size: 2.25rem;
@@ -243,6 +300,8 @@ header .mobile {
   color: #4a4a4a;
 }
 
+
+
 @media only screen and (max-width: 890px) {
   .feature h2 {
     font-size: 1.125rem;
@@ -254,6 +313,36 @@ header .mobile {
     font-size: .875rem;
     line-height: 1.4;
   }
+
+  .feature {
+    padding: 0.75rem;
+    margin: 0px 0.5rem;
+  }
+
+  .mobile ul li:last-child {
+    display: block;
+  }
+
+  .mobile .button {
+    padding: .1875rem .5rem;
+    background-color: #9dc20b;
+    line-height: 1.6;
+    color: white;
+  }
+
+  #sign-up-cta {
+    background-color: transparent;
+  }
+
+  #sign-up-cta .email {
+    display: none;
+  }
+
+  #sign-up-section {
+    height: 5.5rem;
+    align-items: center;
+  }
+
 }
 
 @media only screen and (max-width: 760px) {
@@ -267,8 +356,6 @@ header .mobile {
     padding: 1.25rem 1rem 0 1rem;
   }
 }
-
-/* Filters Section */
 
 #filters-section {
   padding: 4rem 0;
@@ -291,14 +378,21 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
-@media only screen and (max-width: 760px) {
+#filters-section .images-container img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 890px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -312,6 +406,14 @@ header .mobile {
     font-size: 1.125rem;
     line-height: 1.3;
     font-weight: normal;
+  }
+
+  #features-section {
+    padding: 2rem 1%;
+  }
+
+  #filters-section {
+    padding-bottom: 0;
   }
 
   #filters-section .content h3 {
@@ -328,17 +430,15 @@ header .mobile {
   }
 }
 
-/* Quotes Section */
-
 #quotes-section {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -347,28 +447,29 @@ header .mobile {
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
-  #quotes-section content {
+@media only screen and (max-width: 890px) {
+  #quotes-section .content {
     padding: 1.875rem .625rem;
+    display: flex;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
+    text-align: left;
+    padding-left: 0.75rem;
   }
 
-  #quotes-section quote-citation {
-    display: block;
-    padding-top: 1rem;
+  #quotes-section .quote-citation {
     margin: auto;
+    padding-right: 0.75rem;
   }
 }
 
-/* Footer */
 
 footer {
   background-color: #9b9b9b;
@@ -388,5 +489,19 @@ footer .copyright {
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #features-section {
+    padding: 1rem 0.5%;
+  }
+
+  #quotes-section .quote {
+    margin-bottom: 1rem;
+  }
+
+  #quotes-section .content {
+    flex-direction: column;
   }
 }
