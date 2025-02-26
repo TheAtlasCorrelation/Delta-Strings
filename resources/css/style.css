@@ -128,23 +128,21 @@ header .icon {
   justify-content: flex-start;
   align-items: flex-start;
   background-image: url("/resources/images/Violin.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 10.625rem;
+  background-position: left;
+  background-size: 2000px;
   padding-bottom: 10.625rem;
-  padding-left: 27.5rem;
-  height: 45.5vh;
+  padding-left: 1521px;
+  height: 524px;
 }
 
 #sign-up-cta {
+
   padding: 0 5rem 2.5rem 5rem;
-  border-radius: 4px;
-  background-color: hsl(221, 100%, 50%);
-  height: auto;
-  width: 45vh;
-  margin-top: -10vh;
-  margin-left: -26vw;
+  border-radius: 50px;
+  background-color: hsl(20, 100%, 30%);
+  width: 42.5vh;
+  margin-top: 20vh;
+  margin-left: -90vw;
 }
 
 #sign-up-cta .content {
@@ -185,19 +183,25 @@ header .icon {
 }
 
 .booking-header {
+  
   font-size: 10vh;
   margin-left: 37vw;
+  margin-top: 4vw;
   color: rgb(131, 72, 43);
 }
 
 .image {
-  width: 60vh;
-  height: 50vh;
+  width: 40vh;
+  height: 45vh;
 }
 
 .image-1 {
-  width: 50vh;
-  height: 60vh;
+  background: url("/resources/images/Violin2.jpg");
+  width: 40vh;
+  background-size: 500px;
+  height: 42.5vh;
+  background-position: right;
+  margin-left: 17.5vh;
 }
 
 @media only screen and (max-width: 760px) {
@@ -359,7 +363,7 @@ header .icon {
 
 #filters-section {
   padding: 4rem 0;
-  background-color: #4a4a4a;
+  background-image: linear-gradient(to bottom, black, #822e10);
 }
 
 #filters-section .content {
@@ -428,6 +432,10 @@ header .icon {
   #filters-section .extra {
     display: none;
   }
+}
+
+.song-list {
+
 }
 
 #quotes-section {
