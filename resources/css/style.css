@@ -183,7 +183,7 @@ header .icon {
 }
 
 .booking-header {
-  
+
   font-size: 10vh;
   margin-left: 37vw;
   margin-top: 4vw;
@@ -434,10 +434,6 @@ header .icon {
   }
 }
 
-.song-list {
-
-}
-
 #quotes-section {
   background-color: #f3f3f3;
 }
@@ -492,6 +488,18 @@ footer .content {
 
 footer .copyright {
   flex-grow: 1;
+}
+
+footer .footer-link-1 {
+  background: url("/resources/images/facebook\ logo.png");
+}
+
+footer .footer-link-2 {
+  background: url("/resources/images/youtube\ logo.png");
+}
+
+footer .footer-link-3 {
+  background: url("/resources/images/x\ logo.png");
 }
 
 @media only screen and (min-width: 760px) {
