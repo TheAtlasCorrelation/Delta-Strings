@@ -184,7 +184,7 @@ header .icon {
 }
 
 .booking-header {
-  
+
   font-size: 10vh;
   margin-left: 37vw;
   margin-top: 4vw;
@@ -486,15 +486,32 @@ footer .content {
   color: white;
   display: flex;
   font-size: .75rem;
-  height: 50px;
-  width: 25px;
 }
 
 footer .copyright {
   flex-grow: 1;
   text-align: center;
-  margin-top: 27.5vh;
+  margin-top: 30vh;
 
+}
+
+footer .location {
+  margin-top: 30vh;
+}
+
+footer .footer-logo-1 {
+  height: 40px;
+  width: 40px;
+}
+
+footer .footer-logo-2 {
+  height: 37px;
+  width: 37px;
+}
+
+footer .footer-logo-3 {
+  height: 37px;
+  width: 37px;
 }
 
 @media only screen and (min-width: 760px) {
