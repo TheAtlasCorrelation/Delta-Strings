@@ -499,33 +499,36 @@ footer .location {
   margin-top: 30vh;
 }
 
-footer .footer-logo-1 {
-  height: 40px;
-  width: 40px;
-}
-
-footer .footer-logo-2 {
-  height: 37px;
-  width: 37px;
-}
-
-footer .footer-logo-3 {
-  height: 37px;
-  width: 37px;
-}
-
 footer .footer-link-1 {
-  background: url("/resources/images/facebook\ logo.png");
+  height: 4vh;
+  width: 4vh;
+  background-size: 50px;
+  font-size: 5vh;
 }
 
 footer .footer-link-2 {
-  background: url("/resources/images/youtube\ logo.png");
+  height: 5vh;
+  width: 5vh;
+  background-size: 50px;
+  font-size: 5vh;
+  
 }
 
 footer .footer-link-3 {
-  background: url("/resources/images/x\ logo.png");
+  height: 4vh;
+  width: 4vh;
+  background-size: 50px;
+  font-size: 5vh;
 }
-
+.footer-link-text-1 {
+  list-style-type: none;
+}
+.footer-link-text-2 {
+  list-style-type: none;
+}
+.footer-link-text-3 {
+  list-style-type: none;
+}
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
