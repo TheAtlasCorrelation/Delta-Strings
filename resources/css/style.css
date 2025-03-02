@@ -387,6 +387,11 @@ header .icon {
   font-family: 'Roboto', sans-serif;
 }
 
+#repertoire-section .song-list {
+  color: white;
+  margin-left: 5vh;
+}
+
 #repertoire-section .images-container {
   max-width: 100%;
   padding: 0 1%;
@@ -522,7 +527,9 @@ footer .privacy-policy-link {
 
 }
 footer .privacy-policy {
+  margin-top: 10vh;
   margin-right: -100px;
+  font-size: 5vh;
 }
 @media only screen and (min-width: 760px) {
   footer .content {
