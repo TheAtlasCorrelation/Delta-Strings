@@ -12,14 +12,13 @@ html {
   text-align: center;
 }
 .body {
-  background-color: #111433;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 .button {
   border-radius: 4px;
   background-color: #4a4a4a;
-  color: white;
+  color: rgb(255, 252, 252);
   font-family: 'Roboto', sans-serif;
   font-size: 1.25rem;
   line-height: 1.4;
