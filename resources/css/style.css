@@ -205,7 +205,7 @@ header .icon {
   background-size: 500px;
   height: 42.5vh;
   background-position: right;
-  margin-left: 17.5vh;
+  margin-left: 70.25vh;
 }
 
 @media only screen and (max-width: 760px) {
@@ -366,7 +366,8 @@ header .icon {
 }
 
 #repertoire-section {
-  padding: 4rem 0;
+  padding: 10rem 7rem;
+  height: 450px;
   background-image: linear-gradient(to bottom, black, hsl(20, 100%, 40%));
 }
 
@@ -443,6 +444,84 @@ header .icon {
   }
 }
 
+#repertoire-section-1 {
+  padding: 10rem 7rem;
+  height: 450px;
+  background-image: linear-gradient(to bottom, black, hsl(20, 100%, 40%));
+}
+
+#repertoire-section-1 .content {
+  padding: 0 .625rem;
+  margin-bottom: 5rem;
+}
+
+#repertoire-section-1 .content h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: white;
+}
+
+#repertoire-section-1 .content h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 300;
+  color: white;
+  opacity: 0.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+#repertoire-section-1 .song-list {
+  color: white;
+  margin-left: 5vh;
+}
+
+#repertoire-section-1 .images-container {
+  max-width: 100%;
+  padding: 0 1%;
+  display: flex;
+}
+
+#repertoire-section-1 .images-container img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 890px) {
+  #repertoire-section-1 {
+    padding: 1.5rem 0 0 0;
+  }
+
+  #repertoire-section-1 .content {
+    margin-bottom: 1rem;
+  }
+
+  #repertoire-section-1 .content h2 {
+    padding-bottom: .625rem;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    font-weight: normal;
+  }
+
+  #features-section-1 {
+    padding: 2rem 1%;
+  }
+
+  #repertoire-section-1 {
+    padding-bottom: 0;
+  }
+
+  #repertoire-section-1 .content h3 {
+    font-size: .875rem;
+    line-height: 1.4;
+  }
+
+  #repertoire-section-1 .images-container {
+    padding: 0;
+  }
+
+  #repertoire-section-1 .extra {
+    display: none;
+  }
+}
 #quotes-section {
   background-color: #f3f3f3;
 }
@@ -509,6 +588,7 @@ footer .location {
 
 footer .footer-link-1 {
   height: 5vh;
+  width: 5vh;
   margin-top: 18vh;
   margin-left: 162vh;
   margin-right: 3vh;
@@ -523,11 +603,22 @@ footer .footer-link-2 {
 footer .footer-link-3 {
   margin-top: 18vh;
   height: 5vh;
+  width: 5vh;
 }
 footer .privacy-policy-link {
   list-style-type: none;
-  overflow: hidden;
 
+}
+footer .privacy-policy-link1 {
+  list-style-type: none;
+  margin-left: -10vh;
+  margin-bottom: -10vh;
+}
+footer .privacy-policy-link2 {
+  list-style-type: none;
+}
+footer .privacy-policy-link3 {
+  list-style-type: none;
 }
 footer .privacy-policy {
   margin-top: 10vh;
