@@ -205,9 +205,16 @@ header .icon {
   background-size: 500px;
   height: 42.5vh;
   background-position: right;
-  margin-left: 70.25vh;
+  margin-left: 15vh;
 }
-
+.image-1-1 {
+  background: url("/resources/images/Violin2.jpg");
+  width: 40vh;
+  background-size: 500px;
+  height: 42.5vh;
+  background-position: right;
+  margin-left: 70vh;
+}
 @media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
@@ -364,10 +371,34 @@ header .icon {
     padding: 1.25rem 1rem 0 1rem;
   }
 }
+.video1 {
+  margin-left: -10vh;
+}
+
+.video2 {
+  margin-top: -41vh;
+  margin-left: 50vh;
+}
+.video3 {
+
+  margin-top: -41vh;
+  margin-left: 110vh;
+}
+
+.caption1 {
+  margin-top: 10vh;
+}
+.caption2 {
+  margin-top: 10vh;
+}
+
+.caption3 {
+  margin-top: 10vh;
+}
 
 #repertoire-section {
   padding: 10rem 7rem;
-  height: 450px;
+  height:465px;
   background-image: linear-gradient(to bottom, black, hsl(20, 100%, 40%));
 }
 
@@ -566,7 +597,7 @@ header .icon {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
-  height: 30vh;
+  height: 37.5vh;
 }
 
 footer .content {
@@ -611,8 +642,6 @@ footer .privacy-policy-link {
 }
 footer .privacy-policy-link1 {
   list-style-type: none;
-  margin-left: -10vh;
-  margin-bottom: -10vh;
 }
 footer .privacy-policy-link2 {
   list-style-type: none;
@@ -620,11 +649,7 @@ footer .privacy-policy-link2 {
 footer .privacy-policy-link3 {
   list-style-type: none;
 }
-footer .privacy-policy {
-  margin-top: 10vh;
-  margin-right: -100px;
-  font-size: 5vh;
-}
+
 @media only screen and (min-width: 760px) {
   footer .content {
     font-size: .625rem;
