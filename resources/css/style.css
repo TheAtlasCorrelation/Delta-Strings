@@ -371,6 +371,10 @@ header .icon {
     padding: 1.25rem 1rem 0 1rem;
   }
 }
+.body-1 {
+  background-image: linear-gradient(to bottom, black, hsl(20, 100%, 40%));
+
+}
 .video1 {
   margin-left: -10vh;
 }
