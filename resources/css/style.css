@@ -376,26 +376,59 @@ header .icon {
 }
 
 .video2 {
-  margin-top: -41vh;
+  margin-top: -49.85vh;
   margin-left: 50vh;
 }
 .video3 {
 
-  margin-top: -41vh;
+  margin-top: -49.75vh;
+  margin-left: 110vh;
+}
+
+.video1-1 {
+  margin-left: -19vh;
+}
+
+.video2-1 {
+  margin-top: -40.25vh;
+  margin-left: 45.5vh;
+}
+.video3-1 {
+
+  margin-top: -40.25vh;
   margin-left: 110vh;
 }
 
 .caption1 {
   margin-top: 10vh;
+  margin-left: 23vh;
 }
 .caption2 {
   margin-top: 10vh;
+  margin-left: 21vh;
+
 }
 
 .caption3 {
   margin-top: 10vh;
+  margin-left: 18vh;
+
+}
+.caption1-1 {
+  margin-top: 10vh;
+  margin-left: 23vh;
+}
+.caption2-1 {
+  margin-top: -10vh;
+  margin-left: 22vh;
+
 }
 
+.caption3-1 {
+  margin-top: -10vh;
+  margin-left: 19vh;
+
+}
 #repertoire-section {
   padding: 10rem 7rem;
   height:465px;
