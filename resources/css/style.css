@@ -144,9 +144,9 @@ header .icon {
   padding: 0 5rem 2.5rem 5rem;
   border-radius: 50px;
   background-color: hsl(20, 100%, 30%);
-  width: 42.5vh;
-  margin-top: 20vh;
-  margin-left: -90vw;
+  width: 21rem;
+  margin-top: 12.5rem;
+  margin-left: -90.25rem;
 }
 
 #sign-up-cta .content {
@@ -156,7 +156,7 @@ header .icon {
   font-size: 1.25rem;
   line-height: 1.4;
   color: white;
-  margin-left: -5vh;
+  margin-left: -3.125rem;
 
 }
 
@@ -188,32 +188,32 @@ header .icon {
 
 .booking-header {
 
-  font-size: 10vh;
-  margin-left: 37vw;
-  margin-top: 4vw;
+  font-size: 6.25rem;
+  margin-left: 32.5rem;
+  margin-top: 2.5rem;
   color: rgb(131, 72, 43);
 }
 
 .image {
-  width: 40vh;
-  height: 45vh;
+  width: 25rem;
+  height: 28.125rem;
 }
 
 .image-1 {
-  background: url("/resources/images/Violin2.jpg");
-  width: 40vh;
-  background-size: 500px;
-  height: 42.5vh;
+  background: url("/resources/images/Violin2.jpg") ;
+  width: 25rem;
+  background-size: 42.26rem;
+  height: 28.1rem;
   background-position: right;
-  margin-left: 15vh;
+  margin-left: 9.375rem;
 }
 .image-1-1 {
   background: url("/resources/images/Violin2.jpg");
-  width: 40vh;
-  background-size: 500px;
-  height: 42.5vh;
+  width: 25rem;
+  background-size: 31.25rem;
+  height: 26.5625rem;
   background-position: right;
-  margin-left: 70vh;
+  margin-left: 43.75rem;
 }
 @media only screen and (max-width: 760px) {
   #sign-up-section {
@@ -376,61 +376,61 @@ header .icon {
 
 }
 .video1 {
-  margin-left: -10vh;
+  margin-left: -8.25rem;
 }
 
 .video2 {
-  margin-top: -49.85vh;
-  margin-left: 50vh;
+  margin-top: -25.5rem;
+  margin-left: 23.5rem;
 }
 .video3 {
 
-  margin-top: -49.75vh;
-  margin-left: 110vh;
+  margin-top: -25.5rem;
+  margin-left: 55rem;
 }
 
 .video1-1 {
-  margin-left: -19vh;
+  margin-left: -11.875rem;
 }
 
 .video2-1 {
-  margin-top: -40.25vh;
-  margin-left: 45.5vh;
+  margin-top: -25.15625rem;
+  margin-left: 28.4375rem;
 }
 .video3-1 {
 
-  margin-top: -40.25vh;
-  margin-left: 110vh;
+  margin-top: -25.15625rem;
+  margin-left: 68.75rem;
 }
 
 .caption1 {
-  margin-top: 10vh;
-  margin-left: 23vh;
+  margin-top: 6.25rem;
+  margin-left: 11.375rem;
 }
 .caption2 {
-  margin-top: 10vh;
-  margin-left: 21vh;
+  margin-top: 6.25rem;
+  margin-left: 10.5rem;
 
 }
 
 .caption3 {
-  margin-top: 10vh;
-  margin-left: 18vh;
+  margin-top: 6.25rem;
+  margin-left: 8.5rem;
 
 }
 .caption1-1 {
-  margin-top: 10vh;
-  margin-left: 23vh;
+  margin-top: 6.25rem;
+  margin-left: 14.375rem;
 }
 .caption2-1 {
-  margin-top: -10vh;
-  margin-left: 22vh;
+  margin-top: -6.25rem;
+  margin-left: 13.75rem;
 
 }
 
 .caption3-1 {
-  margin-top: -10vh;
-  margin-left: 19vh;
+  margin-top: -6.25rem;
+  margin-left: 11.875rem;
 
 }
 #repertoire-section {
@@ -461,7 +461,7 @@ header .icon {
 
 #repertoire-section .song-list {
   color: white;
-  margin-left: 5vh;
+  margin-left: 3.125rem;
 }
 
 #repertoire-section .images-container {
@@ -540,7 +540,7 @@ header .icon {
 
 #repertoire-section-1 .song-list {
   color: white;
-  margin-left: 5vh;
+  margin-left: 3.125rem;
 }
 
 #repertoire-section-1 .images-container {
@@ -626,7 +626,7 @@ header .icon {
 
   #quotes-section .quote-citation {
     margin: auto;
-    padding-right: 0.75rem;
+    padding-right: 0.75rem; 
   }
 }
 
@@ -634,7 +634,7 @@ header .icon {
 footer {
   background-color: #9b9b9b;
   padding: 1.5rem 2rem;
-  height: 37.5vh;
+  height: 32vh;
 }
 
 footer .content {
@@ -679,6 +679,8 @@ footer .privacy-policy-link {
 }
 footer .privacy-policy-link1 {
   list-style-type: none;
+  margin-left: -10vh;
+  margin-bottom: -10vh;
 }
 footer .privacy-policy-link2 {
   list-style-type: none;
