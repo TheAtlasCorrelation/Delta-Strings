@@ -11,10 +11,12 @@ html {
 .center {
   text-align: center;
 }
+
 .body {
   color: rgb(0, 0, 0);
   text-align: center;
 }
+
 .button {
   border-radius: 4px;
   background-color: #4a4a4a;
@@ -41,10 +43,11 @@ html {
 header {
   position: fixed;
   width: 100%;
-  background-color: hsl(20, 100%, 40%);
   height: 5.3125rem;
   z-index: 100;
   font-weight: 1;
+  margin-top: 5.2rem;
+  backdrop-filter: blur(5px);
 }
 
 header .content {
@@ -137,6 +140,7 @@ header .icon {
   padding-bottom: 10.625rem;
   padding-left: 1521px;
   height: 1160px;
+  margin-top: -5.289rem;
 }
 
 #sign-up-cta {
@@ -200,13 +204,14 @@ header .icon {
 }
 
 .image-1 {
-  background: url("/resources/images/Violin2.jpg") ;
+  background: url("/resources/images/Violin2.jpg");
   width: 25rem;
   background-size: 42.26rem;
   height: 28.1rem;
   background-position: right;
   margin-left: 9.375rem;
 }
+
 .image-1-1 {
   background: url("/resources/images/Violin2.jpg");
   width: 25rem;
@@ -215,6 +220,7 @@ header .icon {
   background-position: right;
   margin-left: 43.75rem;
 }
+
 @media only screen and (max-width: 760px) {
   #sign-up-section {
     align-items: center;
@@ -371,10 +377,12 @@ header .icon {
     padding: 1.25rem 1rem 0 1rem;
   }
 }
+
 .body-1 {
-  background-image: linear-gradient(to bottom, black, hsl(20, 100%, 40%));
+  background-image: linear-gradient(to bottom, black, hsl(21, 87%, 6%));
 
 }
+
 .video1 {
   margin-left: -8.25rem;
 }
@@ -383,6 +391,7 @@ header .icon {
   margin-top: -25.5rem;
   margin-left: 23.5rem;
 }
+
 .video3 {
 
   margin-top: -25.5rem;
@@ -397,6 +406,7 @@ header .icon {
   margin-top: -25.15625rem;
   margin-left: 28.4375rem;
 }
+
 .video3-1 {
 
   margin-top: -25.15625rem;
@@ -407,6 +417,7 @@ header .icon {
   margin-top: 6.25rem;
   margin-left: 11.375rem;
 }
+
 .caption2 {
   margin-top: 6.25rem;
   margin-left: 10.5rem;
@@ -418,10 +429,12 @@ header .icon {
   margin-left: 8.5rem;
 
 }
+
 .caption1-1 {
   margin-top: 6.25rem;
   margin-left: 14.375rem;
 }
+
 .caption2-1 {
   margin-top: -6.25rem;
   margin-left: 13.75rem;
@@ -433,9 +446,102 @@ header .icon {
   margin-left: 11.875rem;
 
 }
+
+.lesson-section {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.lesson-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.lesson-section h3 {
+  font-size: 1.4em;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.lesson-section p {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.lesson-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lesson-details {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.lesson-details h4 {
+  font-size: 1.3em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.lesson-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lesson-details li {
+  font-size: 1.1em;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: 1.2em;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.availability {
+  font-size: 1em;
+  color: #6c757d;
+}
+
+.teacher-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.teacher {
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.teacher h5 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.teacher p {
+  color: #666;
+  font-size: 0.9em;
+}
+
 #repertoire-section {
   padding: 10rem 7rem;
-  height:465px;
+  height: 465px;
   background-image: linear-gradient(to bottom, black, hsl(20, 100%, 40%));
 }
 
@@ -590,6 +696,7 @@ header .icon {
     display: none;
   }
 }
+
 #quotes-section {
   background-color: #f3f3f3;
 }
@@ -626,7 +733,7 @@ header .icon {
 
   #quotes-section .quote-citation {
     margin: auto;
-    padding-right: 0.75rem; 
+    padding-right: 0.75rem;
   }
 }
 
@@ -661,6 +768,7 @@ footer .footer-link-1 {
   margin-left: 162vh;
   margin-right: 3vh;
 }
+
 footer .footer-link-2 {
   height: 6vh;
   width: 7vh;
@@ -673,20 +781,33 @@ footer .footer-link-3 {
   height: 5vh;
   width: 5vh;
 }
-footer .privacy-policy-link {
+
+.privacy-policy-link {
   list-style-type: none;
+  margin-bottom: 10vh;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.privacy-policy-link1 {
+  list-style-type: none;
+  margin-bottom: -10vh;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
 
 }
-footer .privacy-policy-link1 {
+
+.privacy-policy-link2 {
   list-style-type: none;
-  margin-left: -10vh;
   margin-bottom: -10vh;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+
 }
-footer .privacy-policy-link2 {
+
+.privacy-policy-link3 {
   list-style-type: none;
-}
-footer .privacy-policy-link3 {
-  list-style-type: none;
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 760px) {
