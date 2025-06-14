@@ -9,11 +9,7 @@ html {
   top: 5.3125rem;
 }
 
-.desktop-logo {
-  color: hsl(0, 0%, 100%);
-  font-size: 2rem;
-  margin-left: 1.5rem;
-}
+
 
 .center {
   text-align: center;
@@ -53,7 +49,6 @@ header {
   height: 5rem;
   z-index: 100;
   font-weight: 1;
-  backdrop-filter: blur(5px);
   margin-top: 5.3rem;
 }
 
